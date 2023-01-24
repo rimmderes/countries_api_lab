@@ -16,9 +16,6 @@ const CountryListContainer = () => {
                 countries ?  <CountriesList countries={countries} /> : <p>Loading countries..</p> 
         )
         
-        
-    
-
 }
 
 export default CountryListContainer;

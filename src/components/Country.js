@@ -1,13 +1,18 @@
 import CountriesList from "./CountriesList";
 
-const Country = ({countries}) => {
+const Country = ({country}) => {
 
      return (
-        <li>
-            {countries.name.common}
-            </li>
-        
-
+          <div>
+          <ul>
+               <li>
+                    Name: {country.name.common} {country.flag}
+               </li>
+               
+                    Population: {country.population}
+                 
+            </ul>
+            </div>
      )
 
 }
